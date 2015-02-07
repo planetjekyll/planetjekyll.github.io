@@ -16,6 +16,6 @@ Written by Brandon Mathis and friends.
 
 ### Find Out More
 
-- Site    :: [`octopress.org](http://octopress.org)
+- Site    :: [`octopress.org`](http://octopress.org)
 - Source  :: [`github.com/octopress`](https://github.com/octopress)
 
