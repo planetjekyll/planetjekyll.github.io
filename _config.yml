@@ -1,0 +1,35 @@
+###########
+# site.url, site.title
+
+url:   'http://planetjekyll.github.io'
+title: 'Planet Jekyll'
+
+########
+# more settings
+
+markdown: kramdown
+
+collections:
+  links:
+    output: true
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+
+###
+# todo/check:
+#   possible to exclude *.ini ???
+
+exclude:
+- README.md
+- LINKS.md
+- QUICKREF-DRAFT.md
+- QUICKREF.md
+- WORDPRESS.md
+
+
+safe: true
+lsi: false
+
