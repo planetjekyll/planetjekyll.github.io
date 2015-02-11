@@ -18,16 +18,9 @@ sass:
   style:    expanded
 
 
-###
-# todo/check:
-#   possible to exclude *.ini ???
-
 exclude:
 - README.md
-- LINKS.md
-- QUICKREF-DRAFT.md
 - QUICKREF.md
-- WORDPRESS.md
 
 
 safe: true
