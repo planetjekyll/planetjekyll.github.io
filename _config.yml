@@ -9,18 +9,20 @@ title: 'Planet Jekyll'
 
 markdown: kramdown
 
-collections:
-  links:
-    output: true
 
 sass:
   sass_dir: css
   style:    expanded
 
 
+include:
+- _data
+
 exclude:
 - README.md
-- QUICKREF.md
+- _data/links/README.md
+- _data/links/attic
+- attic
 
 
 safe: true
