@@ -10,6 +10,11 @@ title: 'Planet Jekyll'
 markdown: kramdown
 
 
+collections:
+  snippets:
+    output: true
+
+
 sass:
   sass_dir: css
   style:    expanded

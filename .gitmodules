@@ -1,0 +1,3 @@
+[submodule "snippets"]
+	path = _snippets
+	url = https://github.com/planetjekyll/snippets.git
