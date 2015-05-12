@@ -84,6 +84,9 @@ pre,
 }
 
 
+//////////////////////////////////
+// move to _announce partial for reuse
+
 .announce {
   background-color: $color-primary; // red;
   color: white;
@@ -104,6 +107,26 @@ pre,
     }
   }
 }
+
+///////////////////////////////////////////
+// move to _banner partial for reuse
+
+.banner {
+  color: white;
+  background-color: #333333;
+  font-size: 12px;
+  padding: 6px 6px 4px 8px;
+  margin: 0 0 8px 0; }
+
+  .banner a,
+  .banner a:visited {
+    text-decoration: none;
+    color: white;
+    background-color: #333333; }
+    .banner a:hover {
+      text-decoration: underline; }
+
+
 
 @import 'gallery';
 @import 'cards';
