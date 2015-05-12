@@ -5,13 +5,18 @@
    <title>{{ page.title }} - {{ site.title }}</title>
    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/style.css" >
 </head>
-<body>
+<body  style='margin: 0;'>
 
+  {% include banner.html %}
+
+<!-- wrap in container -->
+<div style='margin: 6px;'>
     {% include announce.html %}
 
     <div id="content">
       {{ content }}
     </div>
 
+</div>
 </body>
 </html>
