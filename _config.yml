@@ -27,6 +27,8 @@ exclude:
 - README.md
 - _data/links/README.md
 - _data/links/attic
+- _data/themes/README.md
+- _data/themes/attic
 - _snippets/README.md
 - attic
 
