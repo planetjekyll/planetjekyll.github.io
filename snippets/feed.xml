@@ -4,23 +4,23 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Jekyll Snippets (Tips 'n' Tricks) | {{ site.title }}</title>
-  <link href="{{ site.url }}/feed.xml" rel="self"/>
-  <link href="{{ site.url }}"/>
+  <link href="{{ site.url }}/snippets/feed.xml" rel="self"/>
+  <link href="{{ site.url }}/snippets"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{ site.url }}</id>
+  <id>{{ site.url }}/snippets</id>
   <author>
     <name>Planet Jekyll Team</name>
   </author>
   <generator>Jekyll v{{ jekyll.version }}</generator>
 
-  {% for post in site.posts limit: 10 %}
+  {% for snippet in site.snippets limit: 10 %}
   <entry>
-    <title>{{ post.title | xml_escape }}</title>
-    <link href="{{ site.url }}{{ post.url }}"/>
-    <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <id>{{ site.url }}{{ post.url }}</id>
+    <title>{{ snippet.title | xml_escape }}</title>
+    <link href="{{ site.url }}{{ snippet.url }}"/>
+   <!-- fix: <updated>{% comment %} post.date | date_to_xmlschema {% endcomment %}</updated> -->
+    <id>{{ site.url }}{{ snippet.url }}</id>
     <content type="html">
-      {{ post.content | xml_escape }}
+      {{ snippet.content | xml_escape }}
     </content>
   </entry>
   {% endfor %}
