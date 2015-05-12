@@ -1,8 +1,75 @@
 ---
-layout: default
+layout: cards
 title:  "Welcome to Planet Jekyll"
 ---
 
 <h1>{{ page.title }}</h1>
 
 
+<div class='cards'>
+
+<div>
+  <h2><a href="http://planetjekyll.herokuapp.com">Planet Jekyll News Reader »</a></h2>
+  <p>
+     More than 11+ Jekyll Blogs 'n' News Sites.
+       Topics include:
+  </p>
+  <ul>
+    <li>News &amp; Opinions</li>
+    <li>Themes &amp; Snippets</li>
+    <li>Links, Links, Links</li>
+    <li>and many more</li>
+  </ul>
+</div>
+
+<div>
+  <h2><a href="http://planetjekyll.github.io/themes">Jekyll Theme of the Month Series »</a></h2>
+  <ul>
+    {% for theme in site.data.themes.themes limit:3 %}
+       <li>{{ theme.title }}</li>
+    {% endfor %}
+      <li>and many more</li>
+  </ul>
+</div>
+
+<div>
+  <h2><a href="http://planetjekyll.github.io/themes">Jekyll Snippets (Tips &amp; Tricks) »</a></h2>
+  <ul>
+    {% for snippet in site.snippets limit:3 %}
+       <li>{{ snippet.title }}</li>
+    {% endfor %}
+      <li>and many more</li>
+  </ul>
+</div>
+
+<div>
+  <h2><a href="https://github.com/planetjekyll/awesome-jekyll">Awesome Jekyll »</a></h2>
+  <p>
+     A collection of ...
+  </p>
+</div>
+
+<div>
+  <h2><a href="https://github.com/writekit/awesome-markdown">Awesome Markdown @ WriteKit »</a></h2>
+  <p>
+     A collection of ...
+  </p>
+</div>
+
+<div>
+  <h2><a href="https://github.com/writekit/awesome-books">Awesome Books @ WriteKit »</a></h2>
+  <p>A collection of ...
+  </p>
+</div>
+
+<div>
+  <h2><a href="http://planetjekyll.github.io/links">Jekyll Links &amp; Bookmarks »</a></h2>
+  <ul>
+    {% for link in site.data.links.jekyll limit:3 %}
+       <li>{{ link.title }}</li>
+    {% endfor %}
+      <li>and many more</li>
+  </ul>
+</div>
+
+</div><!-- cards -->

@@ -1,0 +1,17 @@
+.cards {
+
+  div {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 330+15px;   // note: add margin+border
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    border-bottom: none;
+  }
+
+}
+
