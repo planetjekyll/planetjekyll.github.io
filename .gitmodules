@@ -4,3 +4,6 @@
 [submodule "themes"]
 	path = _data/themes
 	url = https://github.com/planetjekyll/themes.git
+[submodule "links"]
+	path = _data/links
+	url = https://github.com/planetjekyll/links.git
