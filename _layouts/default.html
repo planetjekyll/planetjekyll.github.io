@@ -3,11 +3,9 @@
 <head>
    <meta charset="utf-8">
    <title>{{ page.title }} - {{ site.title }}</title>
-   <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/style.css" >
+   <link rel="stylesheet" href="{{ site.path }}/css/style.css" >
 <!--
-   <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/themes/feed.xml" title="Jekyll Themes News Feed">
-   <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/snippets/feed.xml" title="Jekyll Snippets (Tips 'n' Tricks) News Feed">
-   <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/feed.xml" title="Jekyll Links 'n' Bookmarks News Feed">
+   <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/feed.xml" title="Jekyll Snippets (Tips 'n' Tricks) News Feed">
 -->
 </head>
 <body style='margin: 0;'>
@@ -17,15 +15,13 @@
 <!-- wrap in container -->
 <div style='margin: 6px;'>
   <div id="nav">
-    <a href="{{ site.url }}">Planet Jekyll Welcome</a> •
+    <a href="{{ site.path }}/">Planet Jekyll Welcome</a> •
 
     <a href="http://planetjekyll.herokuapp.com">Planet Jekyll News Reader</a> •
 
-    <a href="{{ site.url }}/themes">Jekyll Theme of the Month Series</a> •
+    <a href="http://drjekyllthemes.github.io">Jekyll Theme Directory</a> •
 
-    <a href="{{ site.url }}/snippets">Jekyll Snippets (Tips &amp; Tricks)</a> •
-
-    <a href="{{ site.url }}/links">Jekyll Links &amp; Bookmarks</a> •
+    <a href="{{ site.path }}/snippets">Jekyll Snippets (Tips &amp; Tricks)</a> •
 
     <a href="https://github.com/planetjekyll/quickrefs/blob/master/JEKYLL.md">Jekyll Quick Reference (Cheat Sheet)</a> •
 
@@ -35,9 +31,7 @@
 
     <a href="https://github.com/planetjekyll">Repos (Edit Me!)</a>
 
-<!--
-    <a href="http://groups.google.com/group/feedreader">Forum (Questions? Comments?)</a>
-  -->
+    <a href="https://talk.jekyllrb.com">Questions? Comments?</a>
   </div>
 
     {% include announce.html %}

@@ -1,8 +1,12 @@
 ###########
-# site.url, site.title
+#  site.title, site.url, site.path
 
-url:   'http://planetjekyll.github.io'
 title: 'Planet Jekyll'
+
+## note: in path do NOT include root (trailing slash) e.g. (/) - use empty string instead
+path:  ''
+url:   'http://planetjekyll.github.io'
+
 
 ########
 # more settings
@@ -25,10 +29,6 @@ include:
 
 exclude:
 - README.md
-- _data/links/README.md
-- _data/links/attic
-- _data/themes/README.md
-- _data/themes/attic
 - _snippets/README.md
 - attic
 
