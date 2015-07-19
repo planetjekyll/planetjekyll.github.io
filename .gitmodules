@@ -1,6 +1,3 @@
 [submodule "snippets"]
 	path = _snippets
 	url = https://github.com/planetjekyll/snippets.git
-[submodule "links"]
-	path = _data/links
-	url = https://github.com/planetjekyll/links.git
