@@ -1,0 +1,23 @@
+---
+title: Jekyll Showcase Listing
+---
+
+<h1>{{ page.title }}</h1>
+
+<table>
+{% for showcase in site.data.showcase.showcase %}
+<tr>
+<td><b>{{ showcase.title }}</b></td>
+<td>{{ showcase.subtitle }}</td>
+<td>{{ showcase.thumnail }}</td>
+</tr>
+<tr>
+<td colspan='3'>
+<ul>
+<li>live:   <a href="{{ showcase.live }}">{{ showcase.live }}</a></li>
+<li>source: <a href="{{ showcase.source }}">{{ showcase.source }}</a></li>
+</ul>
+</td>
+</tr>
+{% endfor %}
+</table>

@@ -1,0 +1,25 @@
+---
+title: Showcase - The World's Greatest Jekyll Static Sites
+---
+
+<h1>{{ page.title }}</h1>
+
+
+<div class='showcase'>
+{% for showcase in site.data.showcase.showcase %}
+  <div class='showcase'>
+  <div class='showcase-live'>
+    <a href="{{ showcase.live }}">
+      <img src="{{site.path}}/_data/showcase/thumbnails/{{showcase.thumbnail}}">
+    </a>
+  </div>
+  <div class='showcase-info'>
+    <b>{{ showcase.title }}</b> -
+    {{ showcase.subtitle }}
+    <br>
+    <a href="{{ showcase.live }}">[Live]</a>
+    <a href="{{ showcase.source }}">[Source]</a>
+   </div>
+</div>
+{% endfor %}
+</div>
