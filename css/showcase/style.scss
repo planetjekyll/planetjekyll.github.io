@@ -1,0 +1,88 @@
+---
+### note: will result in an all-in-one-file stylesheet e.g. style.css
+---
+
+@import 'showcase/settings';     // note: use path relative to css root
+
+
+body {
+ // find a better font - why? why not??
+ font-family: $font-family;
+ 
+  color: #333333;
+  margin: 0;
+}
+
+// assume this structure:
+//  1) front
+//  2) showcase  (see _showcase.scss)
+//  3) back
+
+#front {
+  padding-top: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+}
+
+#back {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+}
+
+
+a, a:visited {
+  color: $color-primary;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+#header {
+  padding: 0.25em;
+
+  .big
+  {
+    display: inline-block;
+    text-align: center;
+
+    font-family: 'Playball', cursive;
+    font-size: 240%;
+    // font-weight: bold;
+    color: white;
+    background-color: $color-primary;
+    padding: 12px;
+  }
+
+  .small
+  {
+    font-size: 120%;
+    // color: gray;
+    padding-left: 15px;
+  }
+} // # header
+
+
+
+#nav {
+  padding: 0.5em;
+
+  a, a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+
+
+@import 'showcase/showcase';   // note: use path relative to css root
+

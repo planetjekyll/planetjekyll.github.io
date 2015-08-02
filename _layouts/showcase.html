@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>{{ page.title }}</title>
+   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Playball">
+   <link rel="stylesheet" href="{{site.path}}/css/showcase/style.css">
+</head>
+<body>
+
+<div id="front">
+  <div id="header">
+    <span class='big'>planet jekyll's showcase</span>
+    <span class='small'>the world's greatest jekyll static sites</span>
+  </div>
+
+  <div id="nav">
+    <a href="{{site.path}}/showcase">Welcome</a> •
+    <a href="https://github.com/planetjekyll/showcase">Repo (Edit Me!)</a> •
+    <a href="https://talk.jekyllrb.com">Questions? Comments?</a>
+  </div>
+</div>
+
+
+<div id="content">
+  {{ content }}
+</div>
+
+<div id="back">
+  {% include addsite.html %}
+</div>
+
+</body>
+</html>
