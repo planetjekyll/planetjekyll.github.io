@@ -1,6 +1,29 @@
 
-<p>
-  add site notes
-  to be done
-</p>
+<h2>How-To Add Your Site</h2>
 
+<ul>
+
+<li>Fork the
+     <a href="https://github.com/planetjekyll/showcase"><code>/showcase</code> repo</a>
+     on GitHub
+</li>
+
+<li>Add a new entry in the <a href="https://github.com/planetjekyll/showcase/blob/master/showcase.yml"><code>showcase.yml</code></a>
+file and fill out all fields. Example:
+
+<pre>
+- title:     football.db
+  subtitle:  Free Open Public Domain Football Data
+  live:      http://openfootball.github.io
+  source:    https://github.com/openfootball/openfootball.github.io
+  thumbnail: openfootball.png
+</pre>
+
+</li>
+
+<li>Make a 250 x 200 thumbnail and drop it in the thumbnails folder.
+  Note: Do NOT forget to list its filename in the <code>showcase.yml</code> entry.
+</li>
+<li>Check everything is ok, then open up a pull request.</li>
+<li>Thanks!</li>
+</ul>
