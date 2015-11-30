@@ -12,6 +12,8 @@ url:   'http://planetjekyll.github.io'
 # more settings
 
 markdown: kramdown
+  input: GFM
+  hard_wrap: false
 
 
 collections:
