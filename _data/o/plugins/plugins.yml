@@ -1,0 +1,517 @@
+---
+- gem: jekyll-sass-converter
+  gem_url: https://rubygems.org/gems/jekyll-sass-converter
+  category: Official Plugins
+  title: Sass Converter
+  project_url: https://github.com/jekyll/jekyll-sass-converter
+  descr: a Sass converter
+  stars: 45
+- gem: jekyll-watch
+  gem_url: https://rubygems.org/gems/jekyll-watch
+  category: Official Plugins
+  title: Watch
+  project_url: https://github.com/jekyll/jekyll-watch
+  descr: rebuild your site when a file changes with the `--watch` switch
+  stars: 30
+- gem: jekyll-feed
+  gem_url: https://rubygems.org/gems/jekyll-feed
+  category: Official Plugins
+  title: Feed
+  project_url: https://github.com/jekyll/jekyll-feed
+  descr: a plugin to generate an Atom (RSS-like) feed of your posts   **#GitHub Pages**
+  stars: 206
+- gem: jekyll-gist
+  gem_url: https://rubygems.org/gems/jekyll-gist
+  category: Official Plugins
+  title: Gist
+  project_url: https://github.com/jekyll/jekyll-gist
+  descr: Liquid tag for displaying GitHub Gists   **#GitHub Pages**
+  stars: 61
+- gem: jekyll-mentions
+  gem_url: https://rubygems.org/gems/jekyll-mentions
+  category: Official Plugins
+  title: Mentions
+  project_url: https://github.com/jekyll/jekyll-mentions
+  descr: "@mentionable support for your site  **#GitHub Pages**"
+  stars: 71
+- gem: jekyll-paginate
+  gem_url: https://rubygems.org/gems/jekyll-paginate
+  category: Official Plugins
+  title: Paginate
+  project_url: https://github.com/jekyll/jekyll-paginate
+  descr: pagination generator  **#GitHub Pages**
+  stars: 38
+- gem: jekyll-redirect-from
+  gem_url: https://rubygems.org/gems/jekyll-redirect-from
+  category: Official Plugins
+  title: RedirectFrom
+  project_url: https://github.com/jekyll/jekyll-redirect-from
+  descr: seamlessly specify multiple redirections URLs for your pages and posts   **#GitHub
+    Pages**
+  stars: 216
+- gem: jekyll-seo-tag
+  gem_url: https://rubygems.org/gems/jekyll-seo-tag
+  category: Official Plugins
+  title: SEO Tag
+  project_url: https://github.com/jekyll/jekyll-seo-tag
+  descr: a plugin to add metadata tags for search engines and social networks to better
+    index and display your site's content  **#GitHub Pages**
+  stars: 67
+- gem: jekyll-sitemap
+  gem_url: https://rubygems.org/gems/jekyll-sitemap
+  category: Official Plugins
+  title: Sitemap Generator
+  project_url: https://github.com/jekyll/jekyll-sitemap
+  descr: a plugin to silently generate a sitemaps.org compliant sitemap for your site  **#GitHub
+    Pages**
+  stars: 270
+- gem: jemoji
+  gem_url: https://rubygems.org/gems/jemoji
+  category: Official Plugins
+  title: Jemoji
+  project_url: https://github.com/jekyll/jemoji
+  descr: GitHub-flavored emoji plugin   **#GitHub Pages**
+  stars: 141
+- gem: jekyll-github-metadata
+  gem_url: https://rubygems.org/gems/jekyll-github-metadata
+  category: Official Plugins
+  title: GitHub Metadata
+  project_url: https://github.com/jekyll/github-metadata
+  descr: "`site.github`    **#GitHub Pages**"
+  stars: 39
+- gem: jekyll-archives
+  gem_url: https://rubygems.org/gems/jekyll-archives
+  category: Official Plugins
+  title: Archives
+  project_url: https://github.com/jekyll/jekyll-archives
+  descr: archive pages for your tags and categories
+  stars: 111
+- gem: jekyll-assets
+  gem_url: https://rubygems.org/gems/jekyll-assets
+  category: Official Plugins
+  title: Assets 3
+  project_url: https://github.com/jekyll/jekyll-assets
+  descr: asset pipelines
+  stars: 579
+- gem: jekyll-textile-converter
+  gem_url: https://rubygems.org/gems/jekyll-textile-converter
+  category: Official Plugins
+  title: Textile::Converter
+  project_url: https://github.com/jekyll/jekyll-textile-converter
+  descr: convert `.textile` files into HTML; also includes the `textilize` Liquid
+    filter
+  stars: 1
+- gem: jekyll-coffeescript
+  gem_url: https://rubygems.org/gems/jekyll-coffeescript
+  category: Official Plugins
+  title: Coffeescript
+  project_url: https://github.com/jekyll/jekyll-coffeescript
+  descr: a CoffeeScript converter
+  stars: 18
+- gem: jekyll-opal
+  gem_url: https://rubygems.org/gems/jekyll-opal
+  category: Official Plugins
+  title: Opal
+  project_url: https://github.com/jekyll/jekyll-opal
+  descr: convert your Ruby into JavaScript using Opal
+  stars: 12
+- gem: jekyll-compose
+  gem_url: https://rubygems.org/gems/jekyll-compose
+  category: Official Plugins
+  title: Compose
+  project_url: https://github.com/jekyll/jekyll-compose
+  descr: streamline your writing with these commands
+  stars: 120
+- gem: jekyll-import
+  gem_url: https://rubygems.org/gems/jekyll-import
+  category: Official Plugins
+  title: Importers
+  project_url: https://github.com/jekyll/jekyll-import
+  descr: The "import" command for importing from various blogs
+  stars: 167
+- gem: jekyll-language-plugin
+  gem_url: https://rubygems.org/gems/jekyll-language-plugin
+  category: Multi Language / Multi Lingual
+  title: Language
+  project_url: https://github.com/vwochnik/jekyll-language-plugin
+  descr: multi-language plugin for posts, pages and includes
+  stars: 23
+- gem: jekyll-polyglot
+  gem_url: https://rubygems.org/gems/jekyll-polyglot
+  category: Multi Language / Multi Lingual
+  title: Polyglot
+  project_url: https://github.com/untra/polyglot
+  descr: multi-lingual and I18n support tool
+  stars: 36
+- gem: jekyll-i18n_tags
+  gem_url: https://rubygems.org/gems/jekyll-i18n_tags
+  category: Multi Language / Multi Lingual
+  title: i18n Tags
+  project_url: https://github.com/KrzysiekJ/jekyll-i18n_tags
+  descr: Translate your templates.
+  stars: 1
+- gem: jekyll-localization
+  gem_url: https://rubygems.org/gems/jekyll-localization
+  category: Multi Language / Multi Lingual
+  title: localization
+  project_url: https://github.com/blackwinter/jekyll-localization
+  descr: plugin that adds localization features to the rendering engine.
+  stars: 53
+- gem: jekyll-planet
+  gem_url: https://rubygems.org/gems/jekyll-planet
+  category: Feeds & Syndication
+  title: Planet
+  project_url: https://github.com/feedreader/jekyll-planet
+  stars: 6
+- gem: jekyll-scholar
+  gem_url: https://rubygems.org/gems/jekyll-scholar
+  category: Bibliography & Citiations
+  title: Scholar
+  project_url: https://github.com/inukshuk/jekyll-scholar
+  descr: extensions for the blogging scholar.
+  stars: 328
+- gem: emoji_for_jekyll
+  gem_url: https://rubygems.org/gems/emoji_for_jekyll
+  category: Generators
+  title: Emoji
+  project_url: https://github.com/yihangho/emoji-for-jekyll
+  descr: seamlessly enable emoji for all posts and pages
+- gem: jekyll-compass
+  gem_url: https://rubygems.org/gems/jekyll-compass
+  category: Generators
+  title: Compass Integration
+  project_url: https://github.com/mscharley/jekyll-compass
+  descr: easily integrate Compass and Sass with your site
+- gem: jekyll-autolink_email
+  gem_url: https://rubygems.org/gems/jekyll-autolink_email
+  category: Generators
+  title: AutolinkEmail
+  project_url: https://github.com/ivantsepp/jekyll-autolink_email
+  descr: Autolink your emails.
+- gem: jekyll-git_metadata
+  gem_url: https://rubygems.org/gems/jekyll-git_metadata
+  category: Generators
+  title: GitMetadata
+  project_url: https://github.com/ivantsepp/jekyll-git_metadata
+  descr: expose Git metadata for your templates
+- gem: jekyll-auto-image
+  gem_url: https://rubygems.org/gems/jekyll-auto-image
+  category: Generators
+  title: Auto Image
+  project_url: https://github.com/merlos/jekyll-auto-image
+  descr: gets the first image of a post; useful to list your posts with images or
+    to add twitter cards to your site
+- gem: jekyll-umlauts
+  gem_url: https://rubygems.org/gems/jekyll-umlauts
+  category: Generators
+  title: Umlauts
+  project_url: https://github.com/webchef/jekyll-umlauts
+  descr: this generator replaces all german umlauts (äöüß) case sensitive with html
+- gem: jekyll-paginate-category
+  gem_url: https://rubygems.org/gems/jekyll-paginate-category
+  category: Generators
+  title: Paginate::Category
+  project_url: https://github.com/midnightSuyama/jekyll-paginate-category
+  descr: pagination generator for category
+- gem: jekyll-slim
+  gem_url: https://rubygems.org/gems/jekyll-slim
+  category: Converters
+  title: Slim plugin
+  project_url: https://github.com/slim-template/jekyll-slim
+  descr: Slim converter and includes for Jekyll with support for Liquid tags.
+- gem: jekyll-asciidoc
+  gem_url: https://rubygems.org/gems/jekyll-asciidoc
+  category: Converters
+  title: AsciiDoc Plugin
+  project_url: https://github.com/asciidoctor/jekyll-asciidoc
+  descr: AsciiDoc convertor for Jekyll using Asciidoctor.
+- gem: jekyll-commonmark
+  gem_url: https://rubygems.org/gems/jekyll-commonmark
+  category: Converters
+  title: jekyll-commonmark
+  project_url: https://github.com/pathawks/jekyll-commonmark
+  descr: Markdown converter that uses libcmark, the reference parser for CommonMark.
+- gem: jekyll-timeago
+  gem_url: https://rubygems.org/gems/jekyll-timeago
+  category: Filters
+  title: timeago
+  project_url: https://github.com/markets/jekyll-timeago
+  descr: Converts a time value to the time ago in words.
+  stars: 44
+- gem: liquid_pluralize
+  gem_url: https://rubygems.org/gems/liquid_pluralize
+  category: Filters
+  title: pluralize
+  project_url: https://github.com/bdesham/pluralize
+  descr: Easily combine a number and a word into a grammatically-correct amount like
+    “1 minute” or “2 minute**s**”.
+  stars: 15
+- gem: liquid_reading_time
+  gem_url: https://rubygems.org/gems/liquid_reading_time
+  category: Filters
+  title: reading_time
+  project_url: https://github.com/bdesham/reading_time
+  descr: Count words and estimate reading time for a piece of text, ignoring HTML
+    elements that are unlikely to contain running text.
+  stars: 50
+- gem: jekyll-toc
+  gem_url: https://rubygems.org/gems/jekyll-toc
+  category: Filters
+  title: toc
+  project_url: https://github.com/toshimaru/jekyll-toc
+  stars: 5
+- gem: jekyll-smartify
+  gem_url: https://rubygems.org/gems/jekyll-smartify
+  category: Filters
+  title: Smartify
+  project_url: https://github.com/pathawks/jekyll-smartify
+  descr: SmartyPants filter. Make &quot;quotes&quot; &ldquo;curly&rdquo;
+  stars: 4
+- gem: liquid-md5
+  gem_url: https://rubygems.org/gems/liquid-md5
+  category: Filters
+  title: liquid-md5
+  project_url: https://github.com/pathawks/liquid-md5
+  descr: Returns an MD5 hash. Helpful for generating Gravatars in templates
+  stars: 3
+- gem: jekyll-roman
+  gem_url: https://rubygems.org/gems/jekyll-roman
+  category: Filters
+  title: roman
+  project_url: https://github.com/paulrobertlloyd/jekyll-roman
+  descr: A liquid filter for Jekyll that converts numbers into Roman numerals
+  stars: 2
+- gem: jekyll-typogrify
+  gem_url: https://rubygems.org/gems/jekyll-typogrify
+  category: Filters
+  title: Typogrify
+  project_url: https://github.com/myles/jekyll-typogrify
+  descr: A Jekyll plugin that brings the functions of typogruby.
+  stars: 5
+- gem: jekyll-email-protect
+  gem_url: https://rubygems.org/gems/jekyll-email-protect
+  category: Filters
+  title: Email Protect
+  project_url: https://github.com/vwochnik/jekyll-email-protect
+  descr: Email protection liquid filter for Jekyll
+  stars: 13
+- gem: jekyll-twitter-plugin
+  gem_url: https://rubygems.org/gems/jekyll-twitter-plugin
+  category: Tags
+  title: Twitter
+  project_url: https://github.com/rob-murray/jekyll-twitter-plugin
+  descr: A Liquid tag plugin that renders Tweets from Twitter API. Currently supports
+    the oEmbed API.
+  stars: 44
+- gem: jekyll-contentblocks
+  gem_url: https://rubygems.org/gems/jekyll-contentblocks
+  category: Tags
+  title: contentblocks
+  project_url: https://github.com/rustygeldmacher/jekyll-contentblocks
+  descr: Lets you use Rails-like content_for tags in your templates, for passing content
+    from your posts up to your layouts.
+  stars: 67
+- gem: jekyll-beastiepress
+  gem_url: https://rubygems.org/gems/jekyll-beastiepress
+  category: Tags
+  title: beastiepress
+  project_url: https://github.com/okeeblow/jekyll-beastiepress
+  descr: FreeBSD utility tags for Jekyll sites.
+  stars: 4
+- gem: jekyll-swfobject
+  gem_url: https://rubygems.org/gems/jekyll-swfobject
+  category: Tags
+  title: swfobject
+  project_url: https://github.com/sectore/jekyll-swfobject
+  descr: Liquid plugin for embedding Adobe Flash files (.swf) using SWFObject.
+  stars: 2
+- gem: jekyll-picture-tag
+  gem_url: https://rubygems.org/gems/jekyll-picture-tag
+  category: Tags
+  title: Picture Tag
+  project_url: https://github.com/robwierzbowski/jekyll-picture-tag
+  descr: Easy responsive images for Jekyll. Based on the proposed `<picture>` element,
+    polyfilled with Scott Jehl's Picturefill.
+  stars: 296
+- gem: jekyll-responsive_image
+  gem_url: https://rubygems.org/gems/jekyll-responsive_image
+  category: Tags
+  title: Responsive Image
+  project_url: https://github.com/wildlyinaccurate/jekyll-responsive-image
+  descr: Responsive images for Jekyll. Automatically resizes images, supports all
+    responsive methods (`<picture>`, `srcset`, Imager.js, etc), super-flexible configuration.
+  stars: 36
+- gem: jekyll_date_chart
+  gem_url: https://rubygems.org/gems/jekyll_date_chart
+  category: Tags
+  title: Date Chart
+  project_url: https://github.com/GSI/jekyll_date_chart
+  descr: Block that renders date line charts based on textile-formatted tables.
+  stars: 5
+- gem: jekyll_image_encode
+  gem_url: https://rubygems.org/gems/jekyll_image_encode
+  category: Tags
+  title: Image Encode
+  project_url: https://github.com/GSI/jekyll_image_encode
+  descr: Tag that renders base64 codes of images fetched from the web.
+  stars: 8
+- gem: jekyll_quick_man
+  gem_url: https://rubygems.org/gems/jekyll_quick_man
+  category: Tags
+  title: Quick Man
+  project_url: https://github.com/GSI/jekyll_quick_man
+  descr: Tag that renders pretty links to man page sources on the internet.
+  stars: 4
+- gem: jekyll_figure
+  gem_url: https://rubygems.org/gems/jekyll_figure
+  category: Tags
+  title: figure
+  project_url: https://github.com/lmullen/jekyll_figure
+  descr: Generate figures and captions with links to the figure in a variety of formats
+  stars: 18
+- gem: jekyll_github_sample
+  gem_url: https://rubygems.org/gems/jekyll_github_sample
+  category: Tags
+  title: GitHub Sample Tag
+  project_url: https://github.com/bwillis/jekyll-github-sample
+  descr: A liquid tag to include a sample of a github repo file in your Jekyll site.
+  stars: 17
+- gem: jekyll_version_plugin
+  gem_url: https://rubygems.org/gems/jekyll_version_plugin
+  category: Tags
+  title: Project Version Tag
+  project_url: https://github.com/rob-murray/jekyll-version-plugin
+  descr: A Liquid tag plugin that renders a version identifier for your Jekyll site
+    sourced from the git repository containing your code.
+  stars: 7
+- gem: jekyll_inline_highlight
+  gem_url: https://rubygems.org/gems/jekyll_inline_highlight
+  category: Tags
+  title: inline\_highlight
+  project_url: https://github.com/bdesham/inline_highlight
+  descr: A tag for inline syntax highlighting.
+  stars: 10
+- gem: jekyll-mermaid
+  gem_url: https://rubygems.org/gems/jekyll-mermaid
+  category: Tags
+  title: mermaid
+  project_url: https://github.com/jasonbellamy/jekyll-mermaid
+  descr: Simplify the creation of mermaid diagrams and flowcharts in your posts and
+    pages.
+  stars: 17
+- gem: jekyll-asciinema
+  gem_url: https://rubygems.org/gems/jekyll-asciinema
+  category: Tags
+  title: asciinema
+  project_url: https://github.com/mnuessler/jekyll-asciinema
+  descr: A tag for embedding asciicasts recorded with asciinema in your Jekyll pages.
+  stars: 11
+- gem: jekyll-youtube
+  gem_url: https://rubygems.org/gems/jekyll-youtube
+  category: Tags
+  title: Youtube
+  project_url: https://github.com/dommmel/jekyll-youtube
+  descr: A Liquid tag that embeds Youtube videos. The default emded markup is responsive
+    but you can also specify your own by using an include/partial.
+  stars: 7
+- gem: jekyll-figure
+  gem_url: https://rubygems.org/gems/jekyll-figure
+  category: Tags
+  title: figure
+  project_url: https://github.com/paulrobertlloyd/jekyll-figure
+  descr: A liquid tag for Jekyll that generates `<figure>` elements.
+  stars: 7
+- gem: jekyll-giphy
+  gem_url: https://rubygems.org/gems/jekyll-giphy
+  category: Tags
+  title: giphy
+  project_url: https://github.com/vfalanis/jekyll-giphy
+  descr: A plugin for embedding random giphy GIFs on Jekyll sites according to a user
+    defined topic.
+- gem: jekyll-tagging-related_posts
+  gem_url: https://rubygems.org/gems/jekyll-tagging-related_posts
+  category: Other
+  title: tagging-related_posts
+  project_url: https://github.com/toshimaru/jekyll-tagging-related_posts
+  descr: related_posts function based on tags
+  stars: 5
+- gem: jekyll-rendering
+  gem_url: https://rubygems.org/gems/jekyll-rendering
+  category: Other
+  title: rendering
+  project_url: https://github.com/blackwinter/jekyll-rendering
+  descr: plugin to provide alternative rendering engines.
+  stars: 14
+- gem: jekyll-pagination
+  gem_url: https://rubygems.org/gems/jekyll-pagination
+  category: Other
+  title: pagination
+  project_url: https://github.com/blackwinter/jekyll-pagination
+  descr: plugin to extend the pagination generator.
+  stars: 36
+- gem: jekyll-tagging
+  gem_url: https://rubygems.org/gems/jekyll-tagging
+  category: Other
+  title: tagging
+  project_url: https://github.com/pattex/jekyll-tagging
+  descr: plugin to automatically generate a tag cloud and tag pages.
+  stars: 194
+- gem: japr
+  gem_url: https://rubygems.org/gems/japr
+  category: Other
+  title: Asset Pipeline Reborn
+  project_url: https://github.com/kitsched/japr
+  stars: 39
+- gem: jekyll-minibundle
+  gem_url: https://rubygems.org/gems/jekyll-minibundle
+  category: Other
+  title: minibundle
+  project_url: https://github.com/tkareine/jekyll-minibundle
+  descr: Asset bundling and cache busting using external minification tool of your
+    choice. No gem dependencies.
+  stars: 35
+- gem: jekyll-minifier
+  gem_url: https://rubygems.org/gems/jekyll-minifier
+  category: Other
+  title: minifier
+  project_url: https://github.com/digitalsparky/jekyll-minifier
+  descr: Minifies HTML, XML, CSS, and Javascript both inline and as separate files
+    utilising yui-compressor and htmlcompressor.
+  stars: 27
+- gem: jekyll-deploy
+  gem_url: https://rubygems.org/gems/jekyll-deploy
+  category: Other
+  title: Deploy
+  project_url: https://github.com/vwochnik/jekyll-deploy
+  descr: Adds a `deploy` sub-command
+  stars: 2
+- gem: jekyll-contentful-data-import
+  gem_url: https://rubygems.org/gems/jekyll-contentful-data-import
+  category: Other
+  title: Official Contentful Plugin
+  project_url: https://github.com/contentful/jekyll-contentful-data-import
+  descr: Adds a `contentful` sub-command to Jekyll to import data from Contentful.
+  stars: 15
+- gem: jekyll-paspagon
+  gem_url: https://rubygems.org/gems/jekyll-paspagon
+  category: Other
+  title: paspagon
+  project_url: https://github.com/KrzysiekJ/jekyll-paspagon
+  descr: Sell your posts in various formats for cryptocurrencies.
+  stars: 0
+- gem: hawkins
+  gem_url: https://rubygems.org/gems/hawkins
+  category: Other
+  title: Hawkins
+  project_url: https://github.com/awood/hawkins
+  descr: Adds a `liveserve` sub-command to Jekyll that incorporates LiveReload into
+    your pages while you preview them.  No more hitting the refresh button in your
+    browser!
+  stars: 4
+- gem: jekyll-autoprefixer
+  gem_url: https://rubygems.org/gems/jekyll-autoprefixer
+  category: Other
+  title: Autoprefixer
+  project_url: https://github.com/vwochnik/jekyll-autoprefixer
+  descr: Autoprefixer integration for Jekyll
+  stars: 0
