@@ -6,16 +6,17 @@ title:  Jekyll Plugins
 
 <style>
   body {
-    background-color: silver;
+    /* background-color: silver; */
   }
   
   .plugin { 
     display: inline-block;
-    max-width: 300px; 
-    border: 1px solid black;
+    vertical-align: top;
+    width: 300px; 
+    border: 1px solid silver;
     margin: 6px;
     padding: 6px;
-    background-color: white;
+    /* background-color: white; */
   }
   .plugin-title {
     font-weight: bold;
@@ -27,13 +28,13 @@ title:  Jekyll Plugins
 <div class='plugins'>
 {% for plugin in site.data.o.plugins.plugins %}
   <div class='plugin'>
+      {{ plugin.category }} <br>
       <span class='plugin-title'>{{ plugin.title }}</span> 
       ★{{ plugin.stars }} -
       <code>{{ plugin.gem }}</code>
       
       {{ plugin.descr | markdownify }} 
       
-      Category: {{ plugin.category }} <br>
       <a href="{{ plugin.gem_url }}">[Gem]</a>
       <a href="{{ plugin.project_url }}">[More Info]</a>
   </div>
