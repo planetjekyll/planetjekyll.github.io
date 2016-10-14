@@ -2,14 +2,26 @@
 title:  Jekyll Plugins
 ---
 
+<h1>Jekyll Plugins</h1>
+
+<style>
+  .plugin { 
+    display: inline-block; max-width: 300px; 
+    border:  1px silver;
+    margin: 6px;
+    padding: 6px;
+  }
+</style>
+
+
 <div class='plugins'>
 {% for plugin in site.data.o.plugins.plugins %}
   <div class='plugin'>
       <b>{{ plugin.title }}</b> ★ {{ plugin.stars }} -
-      {{ plugin.gem }}
-      <br>
+      {{ plugin.gem }}  in {{ plugin.category }}
+      
       {{ plugin.descr | markdownify }} 
-      <br>
+      
       <a href="{{ plugin.gem_url }}">[Gem]</a>
       <a href="{{ plugin.project_url }}">[More Info]</a>
   </div>
