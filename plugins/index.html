@@ -5,11 +5,21 @@ title:  Jekyll Plugins
 <h1>Jekyll Plugins</h1>
 
 <style>
+  body {
+    background-color: silver;
+  }
+  
   .plugin { 
-    display: inline-block; max-width: 300px; 
-    border:  1px silver;
+    display: inline-block;
+    max-width: 300px; 
+    border: 1px solid black;
     margin: 6px;
     padding: 6px;
+    background-color: white;
+  }
+  .plugin-title {
+    font-weight: bold;
+    font-size: 140%;
   }
 </style>
 
@@ -17,11 +27,13 @@ title:  Jekyll Plugins
 <div class='plugins'>
 {% for plugin in site.data.o.plugins.plugins %}
   <div class='plugin'>
-      <b>{{ plugin.title }}</b> ★ {{ plugin.stars }} -
-      {{ plugin.gem }}  in {{ plugin.category }}
+      <span class='plugin-title'>{{ plugin.title }}</span> 
+      ★{{ plugin.stars }} -
+      <code>{{ plugin.gem }}</code>
       
       {{ plugin.descr | markdownify }} 
       
+      Category: {{ plugin.category }} <br>
       <a href="{{ plugin.gem_url }}">[Gem]</a>
       <a href="{{ plugin.project_url }}">[More Info]</a>
   </div>
