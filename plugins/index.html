@@ -1,0 +1,18 @@
+---
+layout: showcase
+title:  Jekyll Plugins
+---
+
+<div class='plugins'>
+{% for plugin in site.data.o.plugins.plugins %}
+  <div class='plugin'>
+      <b>{{ plugin.title }}</b> -
+      {{ plugin.gem }}
+      <br>
+      {{ plugin.descr | markdownify }} 
+      <br>
+      <a href="{{ plugin.gem_url }}">[Gem]</a>
+      <a href="{{ plugin.project_url }}">[More Info]</a>
+  </div>
+{% endfor %}
+</div>
