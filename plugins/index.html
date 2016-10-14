@@ -1,12 +1,11 @@
 ---
-layout: showcase
 title:  Jekyll Plugins
 ---
 
 <div class='plugins'>
 {% for plugin in site.data.o.plugins.plugins %}
   <div class='plugin'>
-      <b>{{ plugin.title }}</b> -
+      <b>{{ plugin.title }}</b> ★ {{ plugin.stars }} -
       {{ plugin.gem }}
       <br>
       {{ plugin.descr | markdownify }} 
