@@ -1,0 +1,60 @@
+---
+title:  Top 33 - Jekyll Plugins
+---
+
+<h1>Top 33 Jekyll Plugins</h1>
+
+<style>
+  body {
+    /* background-color: silver; */
+  }
+  
+  .plugin { 
+    display: inline-block;
+    vertical-align: top;
+    width: 300px; 
+    border: 1px solid silver;
+    margin: 6px;
+    padding: 6px;
+    /* background-color: white; */
+  }
+  .plugin-title {
+    font-weight: bold;
+    font-size: 140%;
+  }
+</style>
+
+{% assign top_plugins = site.data.o.plugins.plugins | sort: "stars" | reverse %}
+
+<div class='plugins'>
+{% for plugin in top_themes limit:33 %}
+  <div class='plugin'>
+      {{ plugin.category }} <br>
+        <span class='plugin-title'>{{ forloop.index }}. {{ plugin.title }}</span> 
+      ★{{ plugin.stars }} -
+      <code>{{ plugin.gem }}</code>
+      
+      {{ plugin.descr | markdownify }} 
+      
+      <a href="{{ plugin.gem_url }}">[Gem]</a>
+      <a href="{{ plugin.project_url }}">[More Info]</a>
+  </div>
+{% endfor %}
+</div>
+
+
+<h2>How-To Add Your Plugin</h2>
+
+<p>
+  Add a new entry in the <a href="https://github.com/planetjekyll/awesome-jekyll-plugins">Awesome Jekyll Plugins</a> page. Example:
+</p>
+
+<p>
+<code>- [**Scholar**](https://github.com/inukshuk/jekyll-scholar)  (gem: [jekyll-scholar](https://rubygems.org/gems/jekyll-scholar)) by Sylvester Keil  -- extensions for the blogging scholar.
+  </code>
+</p>
+
+<p>
+  That's it. Thanks.
+</p>
+
