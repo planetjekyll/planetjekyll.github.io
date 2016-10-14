@@ -23,14 +23,20 @@ title:  Top 33 - Jekyll Plugins
     font-size: 140%;
   }
 </style>
-                        
+
+
+<div style="text-align: right">
+  <a href="/plugins">All</a> • <a href="/plugins/top">Top 33</a>
+</div>
+
+
 {% assign top_plugins = site.data.o.plugins.plugins | sort: "stars" | reverse %}
 
 <div class='plugins'>
 {% for plugin in top_plugins limit:33 %}
   <div class='plugin'>
       {{ plugin.category }} <br>
-        <span class='plugin-title'>{{ forloop.index }}. {{ plugin.title }}</span> 
+        {{ forloop.index }}. <span class='plugin-title'> {{ plugin.title }}</span> 
       ★{{ plugin.stars }} -
       <code>{{ plugin.gem }}</code>
       
