@@ -2,7 +2,7 @@
 <html>
 <head>
    <meta charset="utf-8">
-   <title>{{ page.title }}</title>
+   <title>{{ page.title }} | Planet Jekyll</title>
    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Playball">
    <link rel="stylesheet" href="{{site.path}}/css/showcase/style.css">
 </head>
@@ -10,15 +10,15 @@
 
 {% include banner-jekyll.html %}
 
-<div id="front">
-  <div id="header">
+<div id="header">
+  <div id="masthead">
     <span class='big'>planet jekyll's showcase</span>
     <span class='small'>the world's greatest jekyll static sites</span>
   </div>
 
   <div id="nav">
     <a href="{{site.path}}/showcase">Welcome</a> •
-    <a href="https://github.com/planetjekyll/showcase">Repo (Edit Me!)</a> •
+    <a href="https://github.com/planetjekyll/showcase">Add Your Site!</a> •
     <a href="http://groups.google.com/group/wwwmake">Questions? Comments?</a>
   </div>
 </div>
@@ -29,7 +29,7 @@
   {{ content }}
 </div>
 
-<div id="back">
+<div id="footer">
   {% include addsite.html %}
 </div>
 
