@@ -2,6 +2,14 @@
 
 .plugins {
 
+  background-color: #f4f4f4;
+  margin: 0;
+
+  padding-top:    24px; // was: 24px;
+  padding-bottom: 60px; // was: 24+24+12px;
+  padding-left:   48px; // was: 24px;
+
+
 .plugin {
   display: inline-block;
   vertical-align: top;
