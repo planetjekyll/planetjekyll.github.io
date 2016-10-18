@@ -1,20 +1,17 @@
 ---
+layout: plugins
 title:  Jekyll Plugins
 ---
-
-{% include banner_jekyll.html %}
-
-<h1>Jekyll Plugins</h1>
 
 <style>
   body {
     /* background-color: silver; */
   }
-  
-  .plugin { 
+
+  .plugin {
     display: inline-block;
     vertical-align: top;
-    width: 300px; 
+    width: 300px;
     border: 1px solid silver;
     margin: 6px;
     padding: 6px;
@@ -24,16 +21,16 @@ title:  Jekyll Plugins
     font-weight: bold;
     font-size: 140%;
   }
-  
-  
+
+
 .banner {
   color: white;
   background-color: #333333;
   // font-size: 12px;
   padding: 6px 6px 4px 8px;
-  margin: 0 0 8px 0; 
+  margin: 0 0 8px 0;
   }
-  
+
  .banner a,
  .banner a:visited {
     text-decoration: none;
@@ -41,7 +38,7 @@ title:  Jekyll Plugins
     background-color: #333333; }
  .banner a:hover {
       text-decoration: underline; }
-    
+
 </style>
 
 
@@ -54,12 +51,14 @@ title:  Jekyll Plugins
 {% for plugin in site.data.o.plugins.plugins %}
   <div class='plugin'>
       {{ plugin.category }} <br>
-      <span class='plugin-title'>{{ plugin.title }}</span> 
+      <span class='plugin-title'>{{ plugin.title }}</span>
       ★{{ plugin.stars }} -
       <code>{{ plugin.gem }}</code>
-      
-      {{ plugin.descr | markdownify }} 
-     
+
+      {% if plugin.descr %}
+        {{ plugin.descr | markdownify }}
+      {% endif %}
+
      <div>
       <a href="{{ plugin.gem_url }}">[Gem]</a>
       <a href="{{ plugin.project_url }}">[More Info]</a>
@@ -67,21 +66,3 @@ title:  Jekyll Plugins
   </div>
 {% endfor %}
 </div>
-
-
-<h2>How-To Add Your Plugin</h2>
-
-<p>
-  Add a new entry in the <a href="https://github.com/planetjekyll/awesome-jekyll-plugins">Awesome Jekyll Plugins</a> page. Example:
-</p>
-
-<p>
-<code>- [**Scholar**](https://github.com/inukshuk/jekyll-scholar)  (gem: [jekyll-scholar](https://rubygems.org/gems/jekyll-scholar)) by Sylvester Keil  -- extensions for the blogging scholar.
-  </code>
-</p>
-
-<p>
-  That's it. Thanks.
-</p>
-
-
