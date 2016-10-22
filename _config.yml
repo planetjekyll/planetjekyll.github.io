@@ -4,7 +4,8 @@
 title: 'Planet Jekyll'
 
 ## note: in path do NOT include root (trailing slash) e.g. (/) - use empty string instead
-path:  ''
+path:    ''
+baseurl: ''
 url:   'http://planetjekyll.github.io'
 
 
@@ -23,6 +24,8 @@ collections:
     output: true
 
 
+permalink:  /news/:title.html
+
 sass:
   sass_dir: css
   style:    expanded
@@ -40,4 +43,3 @@ exclude:
 
 safe: true
 lsi: false
-
