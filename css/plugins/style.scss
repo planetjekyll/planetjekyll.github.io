@@ -103,3 +103,6 @@ pre,
 @import 'plugins/plugins';   // note: use path relative to css root
 @import 'plugins/banner';
 @import 'plugins/announce';
+
+
+@import 'plugins/news';   // note: news pages n posts (re)use plugins css for now (same color/banner)
