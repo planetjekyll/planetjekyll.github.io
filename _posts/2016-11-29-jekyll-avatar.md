@@ -66,7 +66,7 @@ will result in:
 ## All Together 
 
 If you have a list of users e.g. speakers, members, etc. 
-you use a loop. Example:
+use a loop. Example:
 
 ```
 {% raw %}
@@ -82,15 +82,16 @@ you use a loop. Example:
 resulting in:
 
 {% avatar geraldb size=50 %}
-{% avatar dervondenbergenb size=50 %}
+{% avatar dervondenbergen size=50 %}
 {% avatar floord size=50 %}
 {% avatar karlhorky size=50 %}
-{% avatar ramonh size=50 %}
+{% avatar ramonh size=50 %} 
+{% avatar nikgraf size=50 %} and many more ;-)
 
 
 ## Yes, Works with GitHub Pages 
 
-Last but not least - the good news the `jekyll-avatar` gem is an official 
+Last but not least - the good news - the `jekyll-avatar` gem is an official 
 white-listed GitHub Pages plugin. To use it add the following 
 to your site's `_config.yml` file:
 
@@ -99,14 +100,7 @@ gems:
 - jekyll-avatar
 ```
 
-That's it. 
-
-## Learn More
-
-- home :: [benbalter/jekyll-avatar](https://github.com/benbalter/jekyll-avatar)
-- gem :: [jekyll-avatar](https://rubygems.org/gems/jekyll-avatar)
-- rdoc :: [jekyll-avatar](http://rubydoc.info/gems/jekyll-avatar)
-
+That's it. Happy Publishing with Jekyll.
 
 ## Bonus: Build the next Meetup.com - Example: Vienna.html (Static) Meetup Site
 
@@ -116,4 +110,8 @@ See the [Vienna.html meetup site](http://viennahtml.github.io/) as a (real-world
 [Members Page](http://viennahtml.github.io/members), 
 [Speakers Page](http://viennahtml.github.io/speakers), etc.
 
-Happy Publishing with Jekyll.
+## Learn More
+
+- home :: [benbalter/jekyll-avatar](https://github.com/benbalter/jekyll-avatar)
+- gem :: [jekyll-avatar](https://rubygems.org/gems/jekyll-avatar)
+- rdoc :: [jekyll-avatar](http://rubydoc.info/gems/jekyll-avatar)
