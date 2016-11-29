@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jekyll Plugin of the Month - Avatar - Add Profile Pics (Speakers, Members, etc.) to Your Pages"
+title:  "Avatar - Jekyll Plugin of the Month - Add Profile Pics (Speakers, Members, etc.) to Your Pages"
 ---
 
 
