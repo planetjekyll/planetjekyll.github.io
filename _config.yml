@@ -24,6 +24,9 @@ collections:
     output: true
 
 
+gems:
+- jekyll-avatar
+
 permalink:  /news/:title.html
 
 sass:
