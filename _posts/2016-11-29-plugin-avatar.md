@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Avatar - Jekyll Plugin of the Month - Add Profile Pics (Speakers, Members, etc.) to Your Pages"
+title:  "Avatar - Planet Jekyll Plugin of the Month - Add Profile Pics (Speakers, Members, etc.) to Your Pages"
 ---
 
 
 Welcome. 
-The Jekyll Plugin of the Month series presents a new addon for your (static) web pages
+The Planet Jekyll Plugin of the Month series presents a new addon for your (static) web pages
 every month.
 
 
