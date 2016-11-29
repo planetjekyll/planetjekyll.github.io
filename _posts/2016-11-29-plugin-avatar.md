@@ -86,7 +86,11 @@ resulting in:
 {% avatar floord size=50 %}
 {% avatar karlhorky size=50 %}
 {% avatar ramonh size=50 %} 
-{% avatar nikgraf size=50 %} and many more ;-)
+{% avatar nikgraf size=50 %} 
+{% avatar spuz size=50 %} 
+{% avatar marfi size=50 %} 
+{% avatar haslinger size=50 %} 
+and many more ;-)
 
 
 ## Yes, Works with GitHub Pages 
