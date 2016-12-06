@@ -18,9 +18,8 @@ that lets you add 500+ emojis, that is, similey, thumbs ups (+1s) and more to yo
 using shortcodes.
 
 
-
-Use "shortcodes" that will get (auto-)converted to mini inline pictures 
-to spice up your plain text. Example:
+To spice up your plain text use "shortcodes" that will get (auto-)converted to mini inline pictures. 
+Example:
 
 ```
 I give the jemoji plugin two :+1:!
@@ -110,7 +109,7 @@ Or add some cats:
 :joy_cat: `:joy_cat:`
 :pouting_cat: `:pouting_cat:`
 
-Or add some roses (:rose::rose::rose:) or tulips (:tulip::tulip::tulip:) or
+Or add some roses :rose::rose::rose: or tulips :tulip::tulip::tulip: or
 on and on and on. 
 See the [Emoji Cheet Sheet](http://planetjekyll.github.io/sandbox-github-pages/emoji-cheat-sheet) 
 for more than 500+ shortcodes.
@@ -136,6 +135,10 @@ becomes (in HTML):
      height="20" width="20" 
      align="absmiddle">
 ```
+
+resulting in:
+
+:+1:
 
 
 ## Yes, Works with GitHub Pages 
