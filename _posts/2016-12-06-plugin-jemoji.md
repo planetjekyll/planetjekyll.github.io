@@ -119,7 +119,7 @@ for more than 500+ shortcodes.
 
 The emoji plugin runs your text through a filter (that is, `HTML::Pipeline::EmojiFilter`) 
 and replaces all known `:shortcodes:`
-with images (served from the GitHub.com). Example: 
+with images (served from GitHub.com). Example: 
 
 ```
 :+1:
