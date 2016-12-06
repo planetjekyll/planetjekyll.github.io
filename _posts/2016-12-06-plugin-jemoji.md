@@ -14,7 +14,7 @@ every month.
 
 Let's thank
 Ben Balter, Parker Moore and friends who have created the `jemoji` gem 
-that lets you add 500+ emojis, that is, similey, thumbs ups (+1s) and more to your pages
+that lets you add 500+ emojis, that is, simileys, thumbs ups (+1s) and mucho more to your pages
 using shortcodes.
 
 
