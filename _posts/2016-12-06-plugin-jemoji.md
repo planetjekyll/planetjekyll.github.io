@@ -96,7 +96,46 @@ To add a "classic" similey use any of the 20+ shortcodes. Example:
 :alien: `:alien:`
 
 
+## Cats, Cats, Cats
 
+Or add some cats:
+
+:smiley_cat: `:smiley_cat:`
+:smile_cat: `:smile_cat:`
+:heart_eyes_cat: `:heart_eyes_cat:`
+:kissing_cat: `:kissing_cat:`
+:smirk_cat: `:smirk_cat:`
+:scream_cat: `:scream_cat:`
+:crying_cat_face: `:crying_cat_face:`
+:joy_cat: `:joy_cat:`
+:pouting_cat: `:pouting_cat:`
+
+Or add some roses (:rose::rose::rose:) or tulips (:tulip::tulip::tulip:) or
+on and on and on. 
+See the [Emoji Cheet Sheet](http://planetjekyll.github.io/sandbox-github-pages/emoji-cheat-sheet) 
+for more than 500+ shortcodes.
+
+
+## How does it work?
+
+The emoji plugin runs your text through a filter (that is, `HTML::Pipeline::EmojiFilter`) 
+and replaces all known `:shortcodes:`
+with images (served from the GitHub.com). Example: 
+
+```
+:+1:
+```
+
+becomes (in HTML):
+
+```
+<img class="emoji" 
+     title=":+1:" 
+     alt=":+1:"
+     src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" 
+     height="20" width="20" 
+     align="absmiddle">
+```
 
 
 ## Yes, Works with GitHub Pages 
@@ -114,14 +153,12 @@ That's it. Happy Publishing with Jekyll.
 
 ## Bonus: Can You Crack the Emoji Code?
 
-Easy
-
+Easy - 
 :see_no_evil:
 :hear_no_evil:
 :speak_no_evil:
 
-Hard
-
+Hard - 
 :honeybee:
 :honeybee:
 :arrows_counterclockwise:
@@ -131,8 +168,7 @@ Hard
 :arrow_right:
 :question:
 
-What does it mean?
-
+What does it mean?!
 
 
 
