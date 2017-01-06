@@ -1,17 +1,44 @@
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
 .cards {
+  margin: 15px auto 0;
+  width: 75em;
 
   div {
     display: inline-block;
+    margin: 0 0.5% 15px;
+    padding: 15px;
+    width: 385px;
+    height: 300px;
     vertical-align: top;
-    text-align: center;
-    width: 330+15px;   // note: add margin+border
-    margin-right: 15px;
-    margin-bottom: 15px;
-  }
+    background: #fff;
+    border: 1px solid #eaeaea;
 
-  h2 {
-    border-bottom: none;
-  }
+    header {
+      display: table;
+      width: 100%;
+      min-height: 64px;
+      margin-bottom: 15px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #eaeaea;
+    }
 
+    h2 {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+      border: none;
+    }
+
+    ul { list-style: none; }
+    li {
+      &:before {
+        content: " - "
+      }
+    }
+  }
 }
 

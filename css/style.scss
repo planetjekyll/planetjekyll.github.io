@@ -2,11 +2,15 @@
 # note: this front matter ensures Jekyll converts the scss into css
 ---
 
-
+@import 'reset';
 @import 'settings';
+
+* { box-sizing: border-box; }
 
 body {
   font-family:  $font-family;
+  line-height: 1.45;
+  background: #f4f4f4;
 }
 
 
@@ -22,6 +26,7 @@ h2 {
   font-weight: bold;
 }
 
+p { margin-bottom: 8px; }
 
 ul { list-style-type: square; }
 
@@ -90,11 +95,12 @@ pre,
 // move to _announce partial for reuse
 
 .announce {
-  background-color: $color-primary; // red;
-  color: white;
+  margin: 6px 0; /* top right bottom left */
+  padding: 8px 8px 4px; /* top right bottom left */
   font-size: 18px;
-  padding: 8px 8px 4px 8px; /* top right bottom left */
-  margin: 6px 0 6px 0; /* top right bottom left */
+  line-height: 1.45;
+  color: white;
+  background-color: $color-primary;
   border: 1px solid $color-primary;
 
   a {
@@ -105,7 +111,7 @@ pre,
       text-decoration: underline; // none;
     }
     &:hover {
-      color: $color-primary; // red;
+      color: $color-primary;
       background-color: white;
     }
   }

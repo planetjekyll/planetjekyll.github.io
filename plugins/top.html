@@ -3,13 +3,12 @@ layout: plugins
 title:  Top 33 Jekyll Plugins
 ---
 
-
-{% assign top_plugins = site.data.o.plugins.plugins | sort: "stars" | reverse %}
+{% assign top_plugins = site.data.plugins | sort: "stars" | reverse %}
 
 <div class='plugins'>
 
   <div class='plugins-views'>
-    <a href="/plugins">All</a> • <a href="/plugins/top">Top 33</a>
+    <a href="/plugins">All</a> • <a class="active_tab" href="/plugins/top">Top 33</a>
   </div>
 
 {% for plugin in top_plugins limit:33 %}
