@@ -3,28 +3,46 @@ layout: plugins
 title:  Jekyll Plugins
 ---
 
-
 <div class='plugins'>
 
   <div class='plugins-views'>
-    <a href="/plugins">All</a> • <a href="/plugins/top">Top 33</a>
+    <a class="active_tab" href="/plugins">All</a> • <a href="/plugins/top">Top 33</a>
   </div>
 
-{% for plugin in site.data.o.plugins.plugins %}
+{% for plugin in site.data.plugins %}
   <div class='plugin'>
-      {{ plugin.category }} <br>
-      <span class='plugin-title'>{{ plugin.title }}</span>
-      ★{{ plugin.stars }} -
-      <code>{{ plugin.gem }}</code>
+    <header>
+      <h4>{{ plugin.title }}</h4>
+      {% if plugin.category == "Official Plugin" %}
+        <div class="official label">{{ plugin.category }}</div>
+        {% if plugin.sub_category %}
+          <div class="{% if plugin.sub_category contains "Built-in" %}built-in {% elsif plugin.sub_category contains "Optional" %}optional-official {% else %}more-official {% endif %}label">{{ plugin.sub_category }}</div>
+        {% endif %}
+      {% else %}
+        <span class="category">{{ plugin.category }}</span>
+      {% endif %}
+      
+    </header>
+    <div class="card-matter">
+      <span class='plugin-title'>{{ plugin.gem }}
+        ★{{ plugin.stars }}</span>
 
       {% if plugin.descr %}
         {{ plugin.descr | markdownify }}
       {% endif %}
 
-     <div>
-      <a href="{{ plugin.gem_url }}">[Gem]</a>
-      <a href="{{ plugin.project_url }}">[More Info]</a>
-     </div>
+    </div>
+
+    <footer>
+      <a class="gem" href="{{ plugin.gem_url }}">
+        <img src="{{ 'assets/rubygems.png' | relative_url }}" width="24">
+        <span>Gem Info</span>
+      </a>
+      <a class="more-info" href="{{ plugin.project_url }}">
+        <span>Source Code</span>
+        <img src="{{ 'assets/github.png' | relative_url }}" width="24">
+      </a>
+    </footer>
   </div>
 {% endfor %}
 </div>

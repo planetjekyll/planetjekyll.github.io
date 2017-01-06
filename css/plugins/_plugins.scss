@@ -1,34 +1,175 @@
 
 
 .plugins {
-
-  background-color: #f4f4f4;
-  margin: 0;
-
+  margin: 0 auto;
+  width: 100%;
   padding-top:    24px; // was: 24px;
   padding-bottom: 60px; // was: 24+24+12px;
-  padding-left:   48px; // was: 24px;
+
+  @media screen and (min-width: 1201px) {
+    width: 1200px;
+  }
 
   .plugins-views {
+    padding: 10px 7px;
+  }
+
+  .active_tab {
+    padding: 5px 10px;
+    color: white;
+    background: $color-primary;
+    border-radius: 4px;
+  }
+
+  .plugin {
+    display: inline-block;
+    position: relative;
+    margin: 0 0.5% 30px;
     padding: 10px 15px;
-  }
+    width: 385px;
+    min-height: 180px;
+    vertical-align: top;
+    background-color: white;
+    border: 1px solid #eaeaea;
 
+    @media screen and (max-width: 1200px) {
+      display: block;
+      margin: 0 auto 30px;
+      max-width: 360px;
+      width: 100%;
+    }
 
-.plugin {
-  display: inline-block;
-  vertical-align: top;
-  // border: 1px solid silver;
+    header {
+      margin-bottom: 15px;
+      padding-top: 10px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #eaeaea;
+    }
 
-  width: 294px;   /* note: 270(10+10? left+right padding?)+24px add margin+border */
-  background-color: white;
-  margin-bottom: 24px;  // was: 15px;
-  margin-right: 24px;   // was: 15px;
-  padding: 10px 15px;
+    h4 { margin-bottom: 3px; }
+    p {
+      margin: 15px 0;
+      line-height: 1.25;
+    }
 
+    .label {
+      position: absolute;
+      right: -8px;
+      padding: 5px 10px;
+      width: 125px;
+      text-align: center;
+      color: #fafafa;
+      z-index: 2;
 
-  .plugin-title {
-    font-weight: bold;
-    font-size: 140%;
-  }
-} // .plugin
+      &:after {
+        position: absolute;
+        top: 22px;
+        right: 0;
+        content: "";
+        border: 4px solid;
+      }
+    }
+
+    .label,
+    .category {
+      font-size: 0.75em;
+      text-transform: uppercase;
+    }
+
+    .official {
+      top: 0;
+      background-color: $color-primary;
+
+      &:after {
+        border-color: darken($color-primary, 10%) transparent transparent darken($color-primary, 10%);
+      }
+    }
+
+    .built-in {
+      top: 24px;
+      background-color: #25c15c;
+
+      &:after {
+        border-color: darken(#25c15c, 10%) transparent transparent darken(#25c15c, 10%);
+      }
+    }
+
+    .optional-official {
+      top: 24px;
+      background-color: #5673de;
+
+      &:after {
+        border-color: darken(#5673de, 10%) transparent transparent darken(#5673de, 10%);
+      }    
+    }
+
+    .more-official {
+      top: 25px;
+      background-color: #c12528;
+
+      &:after {
+        border-color: darken(#c12528, 10%) transparent transparent darken(#c12528, 10%);
+      }    
+    }
+
+    .card-matter { min-height: 120px; }
+    .plugin-title {
+      font-weight: bold;
+      font-size: 140%;
+    }
+
+    footer {
+      padding-top: 10px;
+      border-top: 1px solid #eaeaea;
+    }
+    .gem:hover { color: #fafafa; }
+
+    .gem img,
+    .more-info img {
+      vertical-align: middle;
+    }
+
+    .gem span, .more-info span {
+      padding: 2px 6px;
+      font-size: 0.75em;
+      color: #fafafa;
+      text-transform: uppercase;
+      border-radius: 4px;
+    }
+
+    .gem span {
+      margin-left: -2px;
+      background: #d34231;   
+    }
+
+    .more-info {
+      float: right;
+      margin-top: 2px;
+    }
+
+    .more-info span {
+      margin-right: -3px;
+      padding: 2px 6px;
+      background: #333;
+    }
+
+  } // .plugin
 } // .plugins
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+pre {
+  margin: 15px 0;
+  padding: 15px;
+  max-width: 600px;
+  font-family: monospace;
+  font-weight: 700;
+  line-height: 1.75;
+  background: darken(#f4f4f4, 10%);
+  border: 0;
+  overflow-x: auto;
+}

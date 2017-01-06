@@ -2,15 +2,17 @@
 ### note: will result in an all-in-one-file stylesheet e.g. style.css
 ---
 
+@import 'reset';
 @import 'plugins/settings';     // note: use path relative to css root
 
+* { box-sizing: border-box; }
 
 body {
  // find a better font - why? why not??
+ margin: 0;
  font-family: $font-family;
-
-  color: #333333;
-  margin: 0;
+ color: #333;
+ background: #f4f4f4;
 }
 
 // assume this structure:
@@ -19,19 +21,12 @@ body {
 //  2) main / plugins  (see _plugins.scss)
 //  3) footer
 
-#header {
-  padding-top: 12px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 12px;
-}
-
+#header,
 #footer {
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 24px;
   padding-bottom: 12px;
+  background: white;
 }
-
 
 a, a:visited {
   color: $color-primary;
