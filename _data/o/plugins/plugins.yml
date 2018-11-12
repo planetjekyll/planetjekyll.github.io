@@ -536,14 +536,14 @@
 - gem: jekyll-timeago
   gem_url: https://rubygems.org/gems/jekyll-timeago
   category: Text Filters
-  title: Time Ago
+  title: Jekyll-Timeago
   project_url: https://github.com/markets/jekyll-timeago
-  descr: Converts a time value to the time ago in words.
+  descr: Converts a time value to the time ago in words. Supports futures and localization.
   github: markets/jekyll-timeago
   created: 2013-06-10 23:01:01.000000000 Z
-  updated: 2016-05-08 12:34:45.000000000 Z
-  commit_msg: bump version to 0.9.1 by Marc Anguera Insa
-  stars: 53
+  updated: 2018-10-21 19:52:20.000000000 Z
+  commit_msg: [docs] use shorter version of timeago method by including the module: include Jekyll::Timeago
+  stars: 85
   stars_week: 0
 - gem: liquid_pluralize
   gem_url: https://rubygems.org/gems/liquid_pluralize
